@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'migas';
+    src: url('./league-spartan.bold.ttf') format('truetype');
+}
+body{
+    background-color:white;
+    background-size: 100%;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+h1{
+    font-size: 40px;
+    font-family:'migas';
+    color:black;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    font-family:'migas';
+    color:black;
+    text-align: center;
+}
+h3{
+    font-size: 18px;
+    color:black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+p{
+    font-size: 15px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    max-width: 50ch;
+}
+
+/* diseño del menú principal*/
+.menu{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:1000;
+}
+.menu-general{
+    width: 100%;
+}
+ul.nav{
+    list-style-type: none;
+    height:90px;
+    overflow: hidden;
+    background-color:#eddebb;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+ul.nav li{
+    background-color:#eddebb;
+    margin: auto 1px;
+    display:list-item;
+    padding:10px 30px;
+    text-align: center;
+    cursor:pointer;
+}
+ul.nav li a{
+    color:black;
+    font-size:20px;
+    text-decoration: none;
+    position:relative;
+    font-family:'migas';
+}
+ul.nav li a:hover{
+    color:#eddebb;
+    background-color:#633a1f;
+    text-decoration: none;
+    border-radius: 20px;
+    border:10px solid #633a1f;
+}
+.logo-principal{
+    background-color:#eddebb;
+}
+.slide-principal{
+    background-color:#633a1f;
+    width:100%;
+    height:80vh;
+    overflow: hidden;
+}
+.slide-principal img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+#seccion1{
+    margin-top: 100px;
+    scroll-margin-top: 180px;
+}
+#seccion2{
+    margin-top: 100px;
+    scroll-margin-top: 180px;
+}
+.panes{
+    margin-top: 50px;
+}
+.nosotros{
+    display: flex;
+    flex-direction:column;
+}
+.nosotros1{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.nosotros1 img{
+    width:500px;
+    height: 280px;
+    object-fit: cover;
+    align-items: center;
+    text-align: center;
+}
+.seleccion-panes ul{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.seleccion-panes ul li{
+    margin: 20px;
+    list-style-type: none;
+    border-color:#633a1f;
+    display:flex;
+    flex-direction: column;
+}
+.seleccion-panes ul li img{
+    width: 200px;
+    height:200;
+}
+.mostrar-mas{
+    background-color:#633a1f;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    border-radius: 15px;
+    padding: 10px, 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.mostrar-mas:hover{
+    background-color:#eddebb;
+    color:#633a1f;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    border-radius: 15px;
+    padding: 10px, 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+
+
+
